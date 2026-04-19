@@ -47,7 +47,7 @@ export default function ESGImpact() {
     <Box>
       <Typography variant="h5" gutterBottom>🌍 ESG & Environmental Impact</Typography>
       <Typography variant="subtitle1" color="textSecondary" mb={4}>
-        Track the real-world green impact of your EV charging network.
+        Track the real-world impact of your EV charging network.
       </Typography>
 
       <Grid container spacing={4}>
