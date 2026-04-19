@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chargesense-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: chargesense
+  template:
+    metadata:
+      labels:
+        app: chargesense
+    spec:
+      containers:
+      - name: chargesense
+        image: devachinnadurai/chargesense:v1
+        ports:
+        - containerPort: 80
